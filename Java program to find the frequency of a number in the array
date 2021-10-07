@@ -1,0 +1,19 @@
+//Java program to find the frequency of a number in the array
+public class Arrays1c {
+
+	public static void main(String[]args) {
+		int a[]= {10,11,12,13,14,15,11,17,11,11};
+		int x=11;
+		int count=0;
+		for (int i=0;i<a.length;i++)
+		{
+			if (a[i]==x)
+			{
+				++count;
+			}
+		}
+		System.out.println("the frequency of the number is: "+count);
+	}
+	
+	
+}
